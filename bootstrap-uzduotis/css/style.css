@@ -1,0 +1,21 @@
+/* Bootstrap provides the container, grid, button, image and alert components.
+   These small adjustments match the supplied assignment illustration. */
+body { padding: 30px 0; color: #292b2c; font-size: 18px; }
+.jumbotron { background-color: #e9e9ed; padding: 48px 30px; }
+.jumbotron h1 { margin: 0 0 10px; font-size: 36px; font-weight: 600; }
+.jumbotron h2 { margin: 0 0 6px; font-size: 28px; font-weight: 600; }
+.btn-primary { background-color: #307bf5; border-color: #307bf5; }
+.btn-primary:hover, .btn-primary:focus { background-color: #175fcf; border-color: #175fcf; }
+.pictures-heading { margin: 0 0 6px; font-size: 24px; font-weight: 600; }
+.pictures-heading small { font-size: 80%; color: inherit; }
+article p { margin-bottom: 0; line-height: 1.5; }
+.img-thumbnail { height: auto; }
+footer.alert { font-size: 14px; }
+@media (max-width: 767px) {
+    body { padding: 16px 0; font-size: 16px; }
+    .jumbotron { padding: 30px 18px; }
+    .jumbotron h1 { font-size: 30px; }
+    .jumbotron h2 { font-size: 22px; }
+    .pictures-heading { font-size: 22px; }
+    article + article { margin-top: 24px; }
+}
